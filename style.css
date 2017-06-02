@@ -1,0 +1,10 @@
+#contenedor {    /*width: 1000px;*/
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+footer {
+    background: #383732;
+    color: azure;
+    padding: 20px;
+}
