@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Carolina Chavarriaga">
+    <meta name="keywords" content="html,css">
+    <meta name="descripción" content="Curriculum Vitae">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../style.css" type="text/css" media="all" />
+    <title>Educacion</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <svg width="200px" height="120px" viewBox="0 0 200 120">             
+                <image xlink:href="../img/lg.svg" width="170px" x="0px" y="35px"></image>
+            </svg>
+        </header>
+        <h1>Curriculum Vitae</h1>
+        <h2>Mildred Carolina Chavarriaga Olarte</h2>
+        <h3>26 de Febrero de 1993</h3>
+        <nav>
+            <a href="../index.html"><img src="../img/home.png" alt="home" width="30px" height="30px"></a>
+            <a href="educacion.html"><img src="../img/study.png" alt="home" width="30px" height="30px"></a>
+            <a href="experiencia.html"><img src="../img/work.png" alt="home" width="30px" height="30px"></a>
+        </nav>
+        <section>
+            <article>
+                <h2>Educacion</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Año</th>
+                            <th>Institucion</th>
+                            <th>Lugar</th>
+                            <th>¿Culmino?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2008</td>
+                            <td>I.E. Jose Acevedo y Gomez</td>
+                            <td>Medellin</td>
+                            <td align="center">Si</td>
+                        </tr>
+                        <tr>
+                            <td>2012</td>
+                            <td>Servivio Nacional de Aprendizaje SENA</td>
+                            <td>Itagui</td>
+                            <td align="center">Si</td>
+                        </tr>
+                        <tr>
+                            <td>2016</td>
+                            <td>Inteco Instituto Tecnico Comercial</td>
+                            <td>Medellin</td>
+                            <td align="center">Si</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+            <article>
+                <h2>Agregar Estudios</h2>
+                <form>
+                    <label for="year"><b>Año: </b></label>
+                    <select name="year" id="year">
+                        <option>2008</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                    </select><br/><br/>
+                    <label for="inst"><b>Institucion: </b></label>
+                    <input name="inst" type="text" required><br/><br/>
+                    <label for="lugar"><b>Lugar: </b></label>
+                    <input name="lugar" type="text" required><br/><br/>
+                    <label for="culmino">¿Culminó?</label>
+                    <input name="culmino" type="radio">Si
+                    <input name="culmino" type="radio">No<br/><br/>
+                    <input type="submit">
+                </form>
+            </article>
+        </section>
+    </div>
+    <br/><br/>
+    <footer>
+        <table width="100%">
+            <tr>
+                <td width="2%">
+                    <a href="mailto:joe@example.com?subject=feedback"><img src="../img/email.png" alt="email" width="25px"></a>
+                </td>
+                <td width="40%">
+                    carolina.ch2693@gmail.com
+                </td>
+                <td width="2%">
+                    <img src="../img/wp.png" alt="whatsapp" width="20px">
+                </td>
+                <td width="40%">
+                    300 710 1689
+                </td>
+                <td width="2%">
+                    <a href="https://www.facebook.com/C4R4M33L0 " target="_blank"><img src="../img/fb.png " alt="facebook " width="25px"></a>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
